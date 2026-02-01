@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aagam Mehta - Data Analyst Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" /> 
+</head>
+
+<body class="is-loading">
+  <!-- Loader -->
+  <div id="loader" aria-label="Loading">
+    <div class="loader-inner">
+      <div class="loader-top">
+        <div class="loader-title">LOADING</div>
+        <div class="loader-percent"><span id="loaderPct">0</span>%</div>
+      </div>
+
+      <div class="loader-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="loader-bar-fill" id="loaderFill"></div>
+      </div>
+
+      <div class="loader-hint">Crafted with data & design</div>
+    </div>
+  </div>
+
+  <div class="cursor"></div>
+
+  <!-- App Wrapper (hidden until loader completes) -->
+  <div id="app" class="app-hidden">
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="logo">
+        <div>AAGAM MEHTA</div>
+        <div class="nav-role">Data Analyst</div>
+      </div>
+      <ul class="menu">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-location">
+        <div class="city">Vadodara</div>
+        <div class="country">Gujarat, IN</div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-label">DATA ANALYST & PRODUCT ANALYST</div>
+        <h1 class="hero-title">
+          <span class="line"><span class="word">AAGAM</span></span>
+          <span class="line"><span class="word">MEHTA</span></span>
+        </h1>
+        <p class="hero-subtitle">
+          Analyst who <span class="highlight">transforms data</span><br>
+          and a developer who <span class="highlight">builds insights</span>
+        </p>
+      </div>
+      <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-number">00/01</div>
+      <h2 class="section-title">ABOUT</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          I'm passionate about turning <strong>complex datasets into compelling narratives</strong> that drive business decisions.
+          My journey in data analytics has taken me from <strong>automating sales workflows</strong> for startups to
+          <strong>delivering consumer insights</strong> for Fortune 500 CPG giants. I thrive at the intersection of
+          <strong>technical precision and strategic thinking</strong>, where Python scripts meet PowerPoint presentations,
+          and where <strong>statistical rigor informs market strategy</strong>.
+        </div>
+        <div class="about-info">
+          <div class="info-item">
+            <div class="info-label">Based In</div>
+            <div class="info-value">Vadodara, Gujarat</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Education</div>
+            <div class="info-value">B.Sc. Data Science</div>
+            <div style="color: var(--text-dim); margin-top: 0.5rem;">Navrachana University</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Currently</div>
+            <div class="info-value">Analyst at Numerator</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <div class="section-number">00/02</div>
+      <h2 class="section-title">WORK</h2>
+
+      <div class="work-list">
+        <!-- Numerator -->
+        <div class="work-item">
+          <div class="work-meta">
+            <div class="logo-tile" aria-label="Numerator logo">
+              <img
+                src="https://www.numerator.com/wp-content/uploads/2023/11/NUMERATOR-LOGOS_N_GREEN-GRADIENT-1.png"
+                alt="Numerator"
+                class="work-logo-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="work-number">001</div>
+            <div class="work-period">Oct'24 - Present</div>
+            <div class="work-location">Remote</div>
+            <div class="work-location">Vadodara</div>
+          </div>
+          <div class="work-content">
+            <h3>Analyst</h3>
+            <div class="work-company">NUMERATOR INDIA (KANTAR)</div>
+            <div class="work-role">Consulting - Market Research</div>
+            <div class="work-description">
+              Delivering analytics and consumer insights for Fortune 500 CPG clients, enabling data-driven product,
+              marketing, and channel decisions. Building dashboards and insight-driven presentations that translate complex
+              consumer insights and retail data into clear, strategic narratives. Automating recurring analytics workflows
+              with Python to improve turnaround speed and ensure accuracy.
+            </div>
+          </div>
+          <div class="work-tags">
+            <div class="work-tag">Python</div>
+            <div class="work-tag">Power BI</div>
+            <div class="work-tag">Excel</div>
+            <div class="work-tag">VBA</div>
+          </div>
+        </div>
+
+        <!-- NielsenIQ -->
+        <div class="work-item">
+          <div class="work-meta">
+            <div class="logo-tile" aria-label="NielsenIQ logo">
+              <img
+                src="https://brandlogos.net/wp-content/uploads/2025/03/nielseniq-logo_brandlogos.net_pqxqj.png"
+                alt="NielsenIQ"
+                class="work-logo-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="work-number">002</div>
+            <div class="work-period">Jul'24 - Sep'24</div>
+            <div class="work-location">Onsite</div>
+            <div class="work-location">Vadodara</div>
+          </div>
+          <div class="work-content">
+            <h3>Data Operations Analyst</h3>
+            <div class="work-company">NIELSENIQ (NYSE: NIQ)</div>
+            <div class="work-role">Data Validation</div>
+            <div class="work-description">
+              Processed and validated high-volume Canadian retail datasets using SQL and Python, improving dataset accuracy
+              and readiness for analytics. Extracted, transformed, and standardized retailer and product data through ETL
+              workflows, enabling deeper insight generation. Optimized recurring data workflows ensuring on-time delivery with
+              near-zero defects.
+            </div>
+          </div>
+          <div class="work-tags">
+            <div class="work-tag">PostgreSQL</div>
+            <div class="work-tag">Python</div>
+            <div class="work-tag">Tableau</div>
+            <div class="work-tag">ETL</div>
+          </div>
+        </div>
+
+        <!-- Weezy -->
+        <div class="work-item">
+          <div class="work-meta">
+            <div class="logo-tile logo-tile--empty" aria-label="Weezy (no logo)">
+              <div class="logo-fallback">W</div>
+            </div>
+            <div class="work-number">003</div>
+            <div class="work-period">Dec'23 - Jun'24</div>
+            <div class="work-location">Remote</div>
+            <div class="work-location">Bangalore</div>
+          </div>
+          <div class="work-content">
+            <h3>Data Analyst Intern</h3>
+            <div class="work-company">WEEZY STREETWEAR</div>
+            <div class="work-role">Founder's Office</div>
+            <div class="work-description">
+              Automated recurring sales reporting workflows using Python and Excel, improving data accessibility for strategic
+              planning. Built and deployed interactive Streamlit dashboards for customer segmentation and sales-inventory
+              analysis, enabling real-time performance tracking and marketing personalization.
+            </div>
+          </div>
+          <div class="work-tags">
+            <div class="work-tag">Streamlit</div>
+            <div class="work-tag">Python</div>
+            <div class="work-tag">Tableau</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="section-number">00/03</div>
+      <h2 class="section-title">PROJECTS</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <a href="projects/ecommerce-workflow.html" class="project-card">
+          <div class="project-thumbnail">
+            <div class="project-icon">🛒</div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">001</div>
+            <div class="project-year">2025</div>
+            <h3>eCommerce Workflow App</h3>
+            <div class="project-type">Automation & Reporting</div>
+            <div class="project-description">
+              Built a Streamlit app to automate Ajiogram's eCommerce workflows—including data validation, file transformation,
+              and inventory filtering; ensuring accurate and efficient Excel-based reporting.
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">Excel</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 2 -->
+        <a href="projects/fraud-detection.html" class="project-card">
+          <div class="project-thumbnail">
+            <div class="project-icon">🔒</div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">002</div>
+            <div class="project-year">2025</div>
+            <h3>Real-Time Fraud Detection</h3>
+            <div class="project-type">Machine Learning & APIs</div>
+            <div class="project-description">
+              Developed a real-time fraud detection system using FastAPI, PostgreSQL, and Scikit-Learn, with a Streamlit
+              dashboard for monitoring live KPIs and fraud trends.
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Scikit-Learn</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="projects/life-expectancy.html" class="project-card">
+          <div class="project-thumbnail">
+            <div class="project-icon">📊</div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">003</div>
+            <div class="project-year">2024</div>
+            <h3>Life Expectancy Analysis</h3>
+            <div class="project-type">Data Visualization</div>
+            <div class="project-description">
+              Cleaned and analyzed WHO life expectancy data using Python and created a Tableau story to highlight global
+              factors influencing longevity.
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">BeautifulSoup</span>
+              <span class="tech-tag">Tableau</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-number">00/04</div>
+      <div class="contact-content">
+        <h2 class="contact-title">LET'S START<br>SOMETHING</h2>
+        <p style="font-size: 1.5rem; color: var(--text-dim); margin-bottom: 2rem;">Say Hi!</p>
+        <a href="mailto:aagam.mehta.dsc@gmail.com" class="contact-email" id="email">
+          AAGAM.MEHTA.DSC@<br>GMAIL.COM
+        </a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/aagam-mehta-42956521a/" class="contact-link" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/" class="contact-link" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="tel:+918980070185" class="contact-link">+91-8980070185</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Aagam Mehta. Crafted with data and design.</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

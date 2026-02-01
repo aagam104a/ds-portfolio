@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eCommerce Workflow App — Aagam Mehta</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="is-loading">
+  <div id="loader" aria-label="Loading">
+    <div class="loader-inner">
+      <div class="loader-top">
+        <div class="loader-title">LOADING</div>
+        <div class="loader-percent"><span id="loaderPct">0</span>%</div>
+      </div>
+      <div class="loader-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="loader-bar-fill" id="loaderFill"></div>
+      </div>
+      <div class="loader-hint">Project details</div>
+    </div>
+  </div>
+
+  <div class="cursor"></div>
+
+  <div id="app" class="app-hidden">
+    <nav id="navbar">
+      <div class="logo">
+        <div>AAGAM MEHTA</div>
+        <div class="nav-role">Data Analyst</div>
+      </div>
+      <ul class="menu">
+        <li><a href="../index.html#projects">Back to Projects</a></li>
+        <li><a href="../index.html#work">Work</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-location">
+        <div class="city">Vadodara</div>
+        <div class="country">Gujarat, IN</div>
+      </div>
+    </nav>
+
+    <main class="page">
+      <header class="page-header">
+        <div class="page-eyebrow">PROJECT 001 • 2025</div>
+        <h1 class="page-title">eCommerce Workflow App</h1>
+        <p class="page-subtitle">
+          A Streamlit app that automates eCommerce workflows (validation, transformations, inventory filtering) to deliver
+          accurate Excel-based reporting faster and with fewer manual steps.
+        </p>
+
+        <div class="page-cta-row">
+          <a class="btn" href="../index.html#projects">← Back</a>
+        </div>
+      </header>
+
+      <section class="page-body">
+        <article class="card">
+          <h3>What I built</h3>
+          <div class="list">
+            <div>• Multi-step workflow to validate raw exports and enforce required schema rules.</div>
+            <div>• File transformation layer to standardize formats for reporting.</div>
+            <div>• Inventory filter logic to remove invalid/irrelevant SKUs before final output.</div>
+            <div>• Streamlit UI to run workflows quickly with fewer errors.</div>
+          </div>
+        </article>
+
+        <aside class="card">
+          <h3>Stack</h3>
+          <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">Streamlit</span>
+            <span class="badge">Excel</span>
+          </div>
+
+          <div style="height: 1.25rem;"></div>
+
+          <div class="kv">
+            <div class="k">Category</div>
+            <div class="v">Automation & Reporting</div>
+          </div>
+
+          <div style="height: 1rem;"></div>
+
+          <div class="kv">
+            <div class="k">Outcome</div>
+            <div class="v">Faster, cleaner reporting outputs</div>
+          </div>
+        </aside>
+      </section>
+
+      <footer>
+        <p>© 2025 Aagam Mehta. Crafted with data and design.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
